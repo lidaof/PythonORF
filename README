@@ -1,4 +1,4 @@
-Usage: newORF.py -i <input nucleotide sequence file>
+Usage: GetORF.py -i <input nucleotide sequence file>
 input a nucleotide (DNA or RNA) sequence file, output a protein sequence file containing ORFs 
 found
 
