@@ -1,1 +1,21 @@
-find orfs in necleotide sequence
+Usage: newORF.py -i <input nucleotide sequence file>
+input a nucleotide (DNA or RNA) sequence file, output a protein sequence file containing ORFs 
+found
+
+Options:
+  --version             show program's version number and exit
+  -h, --help            show this help message and exit
+  -i INPUT, --input=INPUT
+                        input a nucleotide sequence (DNA/RNA) file for ORFs
+                        finding [required]
+  -f INFORMAT, --input-format=INFORMAT
+                        format of input sequence file,[default: fasta]
+  -o OUTPUT, --output=OUTPUT
+                        output the result protein sequence file,[default:
+                        STDOUT]
+  -F OUTFORMAT, --output-format=OUTFORMAT
+                        format of output sequence file,[default: fasta]
+  -c CODONTABLE, --codon-table=CODONTABLE
+                        codon table used when translating,[default: 1]
+  -s STRAND, --strand=STRAND
+                        translate on plus/minus strand,[default: both]
