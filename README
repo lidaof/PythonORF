@@ -1,6 +1,5 @@
-Usage: GetORF.py -i <input nucleotide sequence file>
-input a nucleotide (DNA or RNA) sequence file, output a protein sequence file containing ORFs 
-found
+Usage: GetORF.py -i <input nucleotide sequence file> -o [output protein sequence file] 
+input a nucleotide (DNA or RNA) sequence file, output a protein sequence file containing ORFs found
 
 Options:
   --version             show program's version number and exit
@@ -19,3 +18,6 @@ Options:
                         codon table used when translating,[default: 1]
   -s STRAND, --strand=STRAND
                         translate on plus/minus strand,[default: both]
+  -t TYPE, --type=TYPE  input sequence type,DNA or RNA [default: DNA]
+  -l LENGTH, --length=LENGTH
+                        length thereshold of found ORFs [default: 10]
